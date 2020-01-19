@@ -7,22 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6706542823D4002100B3D468 /* ProjectNavigatorRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6706542723D4002100B3D468 /* ProjectNavigatorRepository.swift */; };
+		6706542A23D4003500B3D468 /* ProjectNabigatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6706542923D4003500B3D468 /* ProjectNabigatorViewModel.swift */; };
+		6706542F23D4C49500B3D468 /* Abstraction+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6706542D23D4C49500B3D468 /* Abstraction+CoreDataClass.swift */; };
+		6706543023D4C49500B3D468 /* Abstraction+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6706542E23D4C49500B3D468 /* Abstraction+CoreDataProperties.swift */; };
+		6706543323D4CA7E00B3D468 /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6706543223D4CA7E00B3D468 /* NSObject.swift */; };
 		6734922723D3AF2A00CC4DF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6734922623D3AF2A00CC4DF3 /* AppDelegate.swift */; };
-		6734922923D3AF2A00CC4DF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6734922823D3AF2A00CC4DF3 /* ViewController.swift */; };
+		6734922923D3AF2A00CC4DF3 /* MainScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6734922823D3AF2A00CC4DF3 /* MainScreenController.swift */; };
 		6734922C23D3AF2B00CC4DF3 /* QuestPlaner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6734922A23D3AF2B00CC4DF3 /* QuestPlaner.xcdatamodeld */; };
 		6734922E23D3AF2C00CC4DF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6734922D23D3AF2C00CC4DF3 /* Assets.xcassets */; };
 		6734923123D3AF2C00CC4DF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6734922F23D3AF2C00CC4DF3 /* Main.storyboard */; };
+		6734923A23D3BB9200CC4DF3 /* ProjectNavigatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6734923923D3BB9200CC4DF3 /* ProjectNavigatorPresenter.swift */; };
+		673B840B23D3CBFE002EA6B9 /* EntityTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673B840A23D3CBFE002EA6B9 /* EntityTableCell.swift */; };
+		675293AA23D3EB610029D692 /* DataStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675293A923D3EB610029D692 /* DataStoreManager.swift */; };
+		675293B423D3F08A0029D692 /* Character+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675293AC23D3F08A0029D692 /* Character+CoreDataClass.swift */; };
+		675293B523D3F08A0029D692 /* Character+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675293AD23D3F08A0029D692 /* Character+CoreDataProperties.swift */; };
+		675293B823D3F08A0029D692 /* StoryElement+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675293B023D3F08A0029D692 /* StoryElement+CoreDataClass.swift */; };
+		675293B923D3F08A0029D692 /* StoryElement+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675293B123D3F08A0029D692 /* StoryElement+CoreDataProperties.swift */; };
+		675293BA23D3F08A0029D692 /* IngameEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675293B223D3F08A0029D692 /* IngameEntity+CoreDataClass.swift */; };
+		675293BB23D3F08A0029D692 /* IngameEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675293B323D3F08A0029D692 /* IngameEntity+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6706542723D4002100B3D468 /* ProjectNavigatorRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectNavigatorRepository.swift; sourceTree = "<group>"; };
+		6706542923D4003500B3D468 /* ProjectNabigatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectNabigatorViewModel.swift; sourceTree = "<group>"; };
+		6706542D23D4C49500B3D468 /* Abstraction+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Abstraction+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6706542E23D4C49500B3D468 /* Abstraction+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Abstraction+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6706543223D4CA7E00B3D468 /* NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
 		6734922323D3AF2A00CC4DF3 /* QuestPlaner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuestPlaner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6734922623D3AF2A00CC4DF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6734922823D3AF2A00CC4DF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6734922823D3AF2A00CC4DF3 /* MainScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenController.swift; sourceTree = "<group>"; };
 		6734922B23D3AF2B00CC4DF3 /* QuestPlaner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QuestPlaner.xcdatamodel; sourceTree = "<group>"; };
 		6734922D23D3AF2C00CC4DF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6734923023D3AF2C00CC4DF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6734923223D3AF2C00CC4DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6734923323D3AF2C00CC4DF3 /* QuestPlaner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuestPlaner.entitlements; sourceTree = "<group>"; };
+		6734923923D3BB9200CC4DF3 /* ProjectNavigatorPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectNavigatorPresenter.swift; sourceTree = "<group>"; };
+		673B840A23D3CBFE002EA6B9 /* EntityTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityTableCell.swift; sourceTree = "<group>"; };
+		675293A923D3EB610029D692 /* DataStoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStoreManager.swift; sourceTree = "<group>"; };
+		675293AC23D3F08A0029D692 /* Character+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Character+CoreDataClass.swift"; sourceTree = "<group>"; };
+		675293AD23D3F08A0029D692 /* Character+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Character+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		675293B023D3F08A0029D692 /* StoryElement+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StoryElement+CoreDataClass.swift"; sourceTree = "<group>"; };
+		675293B123D3F08A0029D692 /* StoryElement+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StoryElement+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		675293B223D3F08A0029D692 /* IngameEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IngameEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		675293B323D3F08A0029D692 /* IngameEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IngameEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +64,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6706543123D4CA6900B3D468 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6706543223D4CA7E00B3D468 /* NSObject.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		6734921A23D3AF2A00CC4DF3 = {
 			isa = PBXGroup;
 			children = (
@@ -55,8 +91,10 @@
 		6734922523D3AF2A00CC4DF3 /* QuestPlaner */ = {
 			isa = PBXGroup;
 			children = (
+				6706543123D4CA6900B3D468 /* Extensions */,
+				675293A823D3EB4E0029D692 /* Services */,
+				6734923B23D3BB9B00CC4DF3 /* Flow */,
 				6734922623D3AF2A00CC4DF3 /* AppDelegate.swift */,
-				6734922823D3AF2A00CC4DF3 /* ViewController.swift */,
 				6734922D23D3AF2C00CC4DF3 /* Assets.xcassets */,
 				6734922F23D3AF2C00CC4DF3 /* Main.storyboard */,
 				6734923223D3AF2C00CC4DF3 /* Info.plist */,
@@ -64,6 +102,66 @@
 				6734922A23D3AF2B00CC4DF3 /* QuestPlaner.xcdatamodeld */,
 			);
 			path = QuestPlaner;
+			sourceTree = "<group>";
+		};
+		6734923B23D3BB9B00CC4DF3 /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				6734923D23D3BC4200CC4DF3 /* MainScreen */,
+				6734923C23D3BBA400CC4DF3 /* ProjectNavigator */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		6734923C23D3BBA400CC4DF3 /* ProjectNavigator */ = {
+			isa = PBXGroup;
+			children = (
+				673B840A23D3CBFE002EA6B9 /* EntityTableCell.swift */,
+				6706542923D4003500B3D468 /* ProjectNabigatorViewModel.swift */,
+				6734923923D3BB9200CC4DF3 /* ProjectNavigatorPresenter.swift */,
+				6706542723D4002100B3D468 /* ProjectNavigatorRepository.swift */,
+			);
+			path = ProjectNavigator;
+			sourceTree = "<group>";
+		};
+		6734923D23D3BC4200CC4DF3 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				6734922823D3AF2A00CC4DF3 /* MainScreenController.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		675293A823D3EB4E0029D692 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				675293AB23D3EF700029D692 /* DataStorage */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		675293AB23D3EF700029D692 /* DataStorage */ = {
+			isa = PBXGroup;
+			children = (
+				675293BC23D3F0A50029D692 /* Models */,
+				675293A923D3EB610029D692 /* DataStoreManager.swift */,
+			);
+			path = DataStorage;
+			sourceTree = "<group>";
+		};
+		675293BC23D3F0A50029D692 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6706542D23D4C49500B3D468 /* Abstraction+CoreDataClass.swift */,
+				6706542E23D4C49500B3D468 /* Abstraction+CoreDataProperties.swift */,
+				675293AC23D3F08A0029D692 /* Character+CoreDataClass.swift */,
+				675293AD23D3F08A0029D692 /* Character+CoreDataProperties.swift */,
+				675293B023D3F08A0029D692 /* StoryElement+CoreDataClass.swift */,
+				675293B123D3F08A0029D692 /* StoryElement+CoreDataProperties.swift */,
+				675293B223D3F08A0029D692 /* IngameEntity+CoreDataClass.swift */,
+				675293B323D3F08A0029D692 /* IngameEntity+CoreDataProperties.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +234,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6734922923D3AF2A00CC4DF3 /* ViewController.swift in Sources */,
+				6706542F23D4C49500B3D468 /* Abstraction+CoreDataClass.swift in Sources */,
+				6734922923D3AF2A00CC4DF3 /* MainScreenController.swift in Sources */,
+				675293B523D3F08A0029D692 /* Character+CoreDataProperties.swift in Sources */,
+				673B840B23D3CBFE002EA6B9 /* EntityTableCell.swift in Sources */,
+				6706543023D4C49500B3D468 /* Abstraction+CoreDataProperties.swift in Sources */,
 				6734922C23D3AF2B00CC4DF3 /* QuestPlaner.xcdatamodeld in Sources */,
+				6706543323D4CA7E00B3D468 /* NSObject.swift in Sources */,
+				675293B423D3F08A0029D692 /* Character+CoreDataClass.swift in Sources */,
+				6706542823D4002100B3D468 /* ProjectNavigatorRepository.swift in Sources */,
+				675293B923D3F08A0029D692 /* StoryElement+CoreDataProperties.swift in Sources */,
+				6706542A23D4003500B3D468 /* ProjectNabigatorViewModel.swift in Sources */,
 				6734922723D3AF2A00CC4DF3 /* AppDelegate.swift in Sources */,
+				675293BB23D3F08A0029D692 /* IngameEntity+CoreDataProperties.swift in Sources */,
+				675293BA23D3F08A0029D692 /* IngameEntity+CoreDataClass.swift in Sources */,
+				6734923A23D3BB9200CC4DF3 /* ProjectNavigatorPresenter.swift in Sources */,
+				675293AA23D3EB610029D692 /* DataStoreManager.swift in Sources */,
+				675293B823D3F08A0029D692 /* StoryElement+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,4 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="18G2022" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Abstraction" representedClassName="Abstraction" syncable="YES">
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="info" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <fetchIndex name="byIdIndex">
+            <fetchIndexElement property="id" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="Character" representedClassName="Character" parentEntity="IngameEntity" syncable="YES">
+        <relationship name="initialElements" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="StoryElement" inverseName="initialOwner" inverseEntity="StoryElement"/>
+    </entity>
+    <entity name="IngameEntity" representedClassName="IngameEntity" parentEntity="Abstraction" syncable="YES">
+        <attribute name="ingamerInfo" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="StoryElement" representedClassName="StoryElement" parentEntity="IngameEntity" syncable="YES">
+        <relationship name="initialOwner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Character" inverseName="initialElements" inverseEntity="Character"/>
+    </entity>
+    <elements>
+        <element name="Abstraction" positionX="-63" positionY="-18" width="128" height="88"/>
+        <element name="Character" positionX="-54" positionY="-9" width="128" height="58"/>
+        <element name="IngameEntity" positionX="-36" positionY="18" width="128" height="58"/>
+        <element name="StoryElement" positionX="-18" positionY="36" width="128" height="58"/>
+    </elements>
 </model>
